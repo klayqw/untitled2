@@ -1,0 +1,50 @@
+
+
+.nav_ul{
+    display:inline-flex;
+    padding: 0;
+    margin: 0;
+    padding-left: 500px;
+}
+
+.nav_ul li{
+    margin: 1px;
+}
+
+.link{
+    color: #9d9d9d;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.link:hover{
+    color: white;
+}
+
+button{
+    background-size: 200px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.search{
+    margin-left: 500px;
+}
+
+.search_box{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.search-button{
+    height: 30px;
+    width: 70px;
+    border-radius: 10%;
+    background-color: white;
+
+}
+
+#nowpage{
+    background-color: #080808;
+    background-size: 500px;
+}
