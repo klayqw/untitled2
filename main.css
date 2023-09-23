@@ -1,10 +1,13 @@
-
-
 .nav_ul{
     display:inline-flex;
     padding: 0;
     margin: 0;
     padding-left: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .nav_ul li{
@@ -19,6 +22,87 @@
 
 .link:hover{
     color: white;
+}
+
+.mh2{
+    font-size: 65%;
+    font-weight: 400;
+    line-height: 1;
+    color: #777;
+}
+
+.p1{
+    display: block;
+    white-space: normal;
+    color: #959595;
+    margin: 0 0 10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (min-width: 1700px) {
+    .main_white {
+        display: flex;
+        justify-content: space-between;
+    }
+    .img-responsive{
+        transform: scaleX(0.5);
+    }
+}
+
+@media screen and (max-width: 1699px) {
+    .main_white {
+        display: block;
+    }
+    .img-responsive{
+        transform: scale(1);
+    }
+}
+
+.img-responsive{
+    border-radius: 10px;
+}
+
+.main{
+    align-items: center;
+}
+
+.main_white{
+    text-align: center;
+    margin-bottom: 25px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+}
+
+.description_main{
+    margin: 0 0 10px;
+    word-wrap: break-word;
+    color: #959595;
+}
+
+.main_a{
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.block{
+    flex: 1;
+}
+
+.main_title{
+    text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 button{
@@ -42,6 +126,51 @@ button{
     border-radius: 10%;
     background-color: white;
 
+}
+h2{
+    color: black;
+    font-size: 36px;
+    margin: 0.67em 0;
+}
+
+
+.headerbtnzone{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #337ab7;
+    color: white;
+}
+
+.headerbtnzone:hover{
+    background-color: #5674b3;
+    border-color:  #5674b3;
+}
+
+.headerpzone{
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.headerh1zone{
+    font-size: 63px;
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 #nowpage{
