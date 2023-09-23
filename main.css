@@ -9,6 +9,9 @@ a{
     text-decoration: none;
     color: white;
 }
+h3{
+    font-weight: normal;
+}
 
 .nav_ul li{
     margin: 1px;
@@ -120,6 +123,10 @@ button{
     border-radius: 5px;
 }
 
+h2{
+    font-weight: normal;
+}
+
 .search-button{
     height: 30px;
     width: 70px;
@@ -127,12 +134,58 @@ button{
     background-color: white;
 
 }
+
+.img-circle{
+    border-radius: 50%;
+    overflow: hidden;
+}
 h2{
     color: black;
     font-size: 36px;
     margin: 0.67em 0;
 }
 
+.main-orange-a{
+    color: black;
+
+}
+
+.main-orange-button{
+    background-color: #fff;
+    color: black;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.block_orange{
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    appearance: none;
+}
+
+.main-orange{
+    padding: 30px 0;
+    background-color: goldenrod;
+    display: flex;
+}
 
 .headerbtnzone{
     display: inline-block;
@@ -176,4 +229,7 @@ h2{
 #nowpage{
     background-color: #080808;
     background-size: 500px;
+}
+
+.headerzone{
 }
