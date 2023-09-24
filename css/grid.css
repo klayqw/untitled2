@@ -4,11 +4,16 @@
         "nav"
         "header"
         "main"
+        "main-2"
         "footer";
     grid-template-rows: auto;
     grid-template-columns: 1fr;
     text-align: center;
 
+}
+
+.main-2{
+    grid-area: main-2;
 }
 
 .nav {
@@ -28,14 +33,13 @@
 
 .main {
     background-color: #f0f0f0;
+    gap: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     grid-area: main;
     margin: 0 auto;
 }
-
-
 
 body, html {
     margin: 0;
