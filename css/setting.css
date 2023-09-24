@@ -10,6 +10,7 @@ html {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+
 @media (max-width: 800px){
     .green-zone-h1{
         font-size: 36px;
@@ -22,24 +23,31 @@ html {
     }
 }
 
-@media (min-width: 1200px)
-.main {
-    width: 1170px;
+@media (min-width: 1200px) {
+    main {
+        width: 1170px;
+    }
 }
 
-@media (min-width: 992px)
-.main {
-    width: 970px;
+@media (min-width: 992px){
+    main {
+     width: 1170px;
+    }
 }
 
-@media (min-width: 768px)
-.main {
-    width: 750px;
+@media (min-width: 768px) {
+    main {
+        width: 750px;
+    }
 }
 
 #nowpage{
     background-color: #080808;
     background-size: 500px;
+}
+
+#nowpage_burger{
+    background-color: #080808;
 }
 
 @media (min-width: 1200px)

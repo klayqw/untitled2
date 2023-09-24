@@ -5,7 +5,9 @@
 
 .main{
     align-items: center;
+
 }
+
 
 .main-title-text{
     margin: 0 0 10px;
@@ -23,8 +25,6 @@
     text-align: center;
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .main-title{
