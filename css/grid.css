@@ -12,7 +12,7 @@
 
 }
 
-.main-2{
+.orange-main{
     grid-area: main-2;
 }
 
@@ -31,7 +31,7 @@
 
 }
 
-.main {
+.white-main {
     background-color: #f0f0f0;
     gap: 30px;
     display: flex;
