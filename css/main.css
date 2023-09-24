@@ -1,14 +1,3 @@
-.nav_ul{
-    display:inline-flex;
-    padding: 0;
-    margin: 0;
-    padding-left: 500px;
-}
-
-.nav_ul li{
-    margin: 1px;
-}
-
 
 .img-responsive{
     border-radius: 10px;
@@ -17,23 +6,6 @@
 .main{
     align-items: center;
 }
-
-.search{
-    margin-left: 500px;
-}
-
-.search_box{
-    height: 30px;
-    border-radius: 5px;
-}
-
-.search-button{
-    height: 30px;
-    width: 70px;
-    border-radius: 10%;
-    background-color: white;
-}
-
 
 .main-title-text{
     margin: 0 0 10px;

@@ -1,0 +1,92 @@
+
+.caret {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2px;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.link{
+    color: #9d9d9d;
+    padding: 18px;
+    margin-right: 150%;
+    font-size: 14px;
+    margin: 1px;
+    position: relative;
+    line-height: 30px;
+}
+
+.link:hover{
+    color: white;
+}
+
+.search{
+    margin-left: 500px;
+}
+
+.search_box{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.search-button{
+    height: 30px;
+    width: 70px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+
+.naving-ul{
+    display:inline-flex;
+    padding-left: 100px;
+}
+
+.burger-menu {
+     position: relative;
+ }
+
+.burger-menu > ul {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    margin-top: 12%;
+    background-color: white;
+    border-style: none solid solid solid;
+    border-width: 1px;
+    border-color: darkgray;
+    width: 200%;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.burger-menu a {
+    padding: 0;
+    padding-right: 50%;
+    padding-left: 9%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 30px;
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+
+.burger-menu:hover > ul {
+    display: flex;
+}
+
+.burger-menu > a {
+    color: #9d9d9d;
+    padding: 18px;
+    font-size: 14px;
+}
+
+.burger-menu:hover > a {
+    background-color: black;
+}
+
+.burger-item:hover {
+    background-color: lightgray;
+}
