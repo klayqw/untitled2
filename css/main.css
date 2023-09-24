@@ -32,7 +32,6 @@
     width: 70px;
     border-radius: 10%;
     background-color: white;
-
 }
 
 
@@ -64,18 +63,7 @@
     justify-content: center;
 }
 
-.green-zone{
-    text-align: center;
-    background-color: yellowgreen;
-    color: greenyellow;
-}
 
-.green-zone-container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 .setting{
     margin-bottom: 30px;

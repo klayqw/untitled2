@@ -26,16 +26,9 @@
 
 .main {
     grid-area: main;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 
-nav,header,main,footer{
-
-}
 
 body, html {
     margin: 0;
