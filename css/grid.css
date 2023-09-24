@@ -32,19 +32,18 @@
     margin-left: auto;
 }
 
+
+nav,header,main,footer{
+
+}
+
 body, html {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
 }
 
 header, nav, main, footer {
-    width: 100%;
-    height: 100%;
     box-sizing: border-box;
-    margin-right: -15px;
-    margin-left: -15px;
     flex-direction: column;
 }
 

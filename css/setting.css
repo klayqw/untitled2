@@ -10,6 +10,18 @@ html {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+@media (max-width: 800px){
+    .headerh1zone{
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 800px){
+    .headerh1zone{
+        font-size: 63px;
+    }
+}
+
 @media (min-width: 1200px)
 .main {
     width: 1170px;
@@ -38,4 +50,38 @@ html {
 @media (min-width: 1200px)
 .main-tite-set {
     width: 100%;
+}
+
+@media (min-width: 992px)
+.col-4 {
+    width: 33.33333333%;
+}
+
+@media (min-width: 992px)
+.col-4 {
+    float: left;
+}
+
+@media screen and (min-width: 800px) {
+    .white-zone{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .white-zone{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .orange-zone{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .orange-zone{
+        display: block;
+    }
 }
