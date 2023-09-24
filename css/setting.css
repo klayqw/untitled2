@@ -11,13 +11,13 @@ html {
 }
 
 @media (max-width: 800px){
-    .headerh1zone{
+    .green-zone-h1{
         font-size: 36px;
     }
 }
 
 @media (min-width: 800px){
-    .headerh1zone{
+    .green-zone-h1{
         font-size: 63px;
     }
 }

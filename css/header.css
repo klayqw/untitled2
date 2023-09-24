@@ -9,14 +9,14 @@
 }
 
 
-.headerh1zone{
+.green-zone-h1{
     color: inherit;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
 }
 
-.headerbtnzone{
+.green-zone-btn{
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -36,12 +36,12 @@
     color: white;
 }
 
-.headerbtnzone:hover{
+.green-zone-btn:hover{
     background-color: #5674b3;
     border-color:  #5674b3;
 }
 
-.headerpzone{
+.green-zone-p{
     margin-bottom: 15px;
     font-size: 21px;
     font-weight: 200;
