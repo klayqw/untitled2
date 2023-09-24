@@ -1,0 +1,34 @@
+.footer {
+    grid-area: footer;
+    color: white;
+    padding: 10px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+
+.copyright {
+    color: #959595;
+}
+
+.links {
+    color: #959595;
+    margin-top: -11px;
+    margin-bottom: 3px;
+}
+
+.links a {
+    color: #337ab7;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: #004788;
+}
