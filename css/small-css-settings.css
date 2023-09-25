@@ -108,6 +108,10 @@ h2{
     margin: 0.67em 0;
 }
 
+header, nav, main, footer {
+    box-sizing: border-box;
+    flex-direction: column;
+}
 
 
 .btn {
@@ -116,7 +120,7 @@ h2{
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.42857143;
+    line-height: 1.4;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
