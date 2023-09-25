@@ -40,15 +40,3 @@
     grid-area: main;
     margin: 0 auto;
 }
-
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
-header, nav, main, footer {
-    box-sizing: border-box;
-    flex-direction: column;
-}
-
-
