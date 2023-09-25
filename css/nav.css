@@ -22,26 +22,9 @@
     color: white;
 }
 
-.search{
-    margin-left: 500px;
-}
-
-.search_box{
-    height: 30px;
-    border-radius: 5px;
-}
-
-.search-button{
-    height: 30px;
-    width: 70px;
-    border-radius: 10%;
-    background-color: white;
-}
-
 
 .naving-ul{
     display:inline-flex;
-    padding-left: 100px;
 }
 
 .burger-menu {
