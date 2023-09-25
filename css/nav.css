@@ -100,6 +100,35 @@
     padding: 0;
 }
 
+.burger-menu-burger{
+    position: relative;
+}
+
+.burger-menu-burger > ul{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: #222;
+    border-style: none solid solid solid;
+    border-width: 1px;
+    border-color: darkgray;
+    width: 155%;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.burger-menu-burger a {
+    padding: 0;
+    padding-right: 50%;
+    padding-left: 9%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 30px;
+    color: #9d9d9d;
+    width: 100%;
+    height: 100%;
+}
+
+
 .burger-menu-ex {
     position: fixed;
     width: 100%;
@@ -113,6 +142,11 @@
     z-index: 999;
     flex-direction: column;
 }
+
+.burger-menu-burger:hover > ul {
+    display: flex;
+}
+
 
 .burger-menu-ex ul {
     list-style: none;

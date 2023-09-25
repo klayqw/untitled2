@@ -72,6 +72,7 @@ html {
 
 #nowpage{
     background-color: #080808;
+    line-height: 28px;
 }
 
 #nowpage_burger{
@@ -79,10 +80,12 @@ html {
 }
 
 
-@media (min-width: 1200px)
-.main-tite-set{
-    float: left;
+@media (min-width: 1200px){
+    .main-title-set{
+        float: left;
+    }
 }
+
 
 
 @media (min-width: 992px){
